@@ -6,6 +6,6 @@ cmake_minimum_required (VERSION 3.8)
 project ("Crypto")
 
 # Ajoutez une source à l'exécutable de ce projet.
-add_executable (Crypto   "Main.cpp"   "Personne.cpp" "Personne.hpp")
+add_executable (Crypto   "Main.cpp"       "Utils/FormatedConsole.hpp" "Utils/FormatedConsole.cpp")
 
 # TODO: Ajoutez des tests et installez des cibles si nécessaire.
